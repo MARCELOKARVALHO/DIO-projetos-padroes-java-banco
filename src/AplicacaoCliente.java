@@ -7,7 +7,7 @@ public class AplicacaoCliente {
 
     //Facade
     public static void main(String[] args) {
-        ClienteDoBanco cliente = new ClienteDoBanco("Maria Campos Rodrigues");
+        ClienteDoBanco cliente = new ClienteDoBanco("Luiz Marcelo Carvalho de Azevedo");
         ContaBancaria conta = new ContaBancaria("1365-9");
 
         Facade facade = new Facade();
